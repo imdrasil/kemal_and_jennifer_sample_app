@@ -1,0 +1,6 @@
+//== Colors
+
+$gray-base: #000 !default;
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default;
+$state-danger-text: #a94442 !default;

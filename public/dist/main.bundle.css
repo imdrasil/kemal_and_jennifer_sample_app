@@ -1,0 +1,223 @@
+/* universal */
+body {
+  padding-top: 60px; }
+
+section {
+  overflow: auto; }
+
+textarea {
+  resize: vertical; }
+
+.center {
+  text-align: center; }
+
+.center h1 {
+  margin-bottom: 10px; }
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1; }
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777; }
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em; }
+
+/* header */
+.inverse-dropdown {
+  background-color: #222;
+  border-color: #080808; }
+  .inverse-dropdown > li > a {
+    color: #999; }
+    .inverse-dropdown > li > a:hover {
+      color: #fff;
+      background-color: #000; }
+  .inverse-dropdown > .divider {
+    background-color: #000; }
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 15px;
+  font-weight: bold; }
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none; }
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777; }
+
+footer a {
+  color: #555; }
+
+footer a:hover {
+  color: #222; }
+
+footer small {
+  float: left; }
+
+footer ul {
+  float: right;
+  list-style: none; }
+
+footer ul li {
+  float: left;
+  margin-left: 15px; }
+
+/* miscellaneous */
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* sidebar */
+aside section.user_info {
+  margin-top: 20px; }
+
+aside section {
+  padding: 10px 0;
+  margin-top: 20px; }
+  aside section:first-child {
+    border: 0;
+    padding-top: 0; }
+  aside section span {
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1; }
+  aside section h1 {
+    font-size: 1.4em;
+    text-align: left;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 0px; }
+
+.gravatar {
+  float: left;
+  margin-right: 10px; }
+
+.gravatar_edit {
+  margin-top: 15px; }
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0; }
+  .stats a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid #eeeeee;
+    color: gray; }
+    .stats a:first-child {
+      padding-left: 0;
+      border: 0; }
+    .stats a:hover {
+      text-decoration: none;
+      color: blue; }
+  .stats strong {
+    display: block; }
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px; }
+  .user_avatars .gravatar {
+    margin: 1px 1px; }
+  .user_avatars a {
+    padding: 0; }
+
+.users.follow {
+  padding: 0; }
+
+/* forms */
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input {
+  height: auto !important; }
+
+#error_explanation {
+  color: red; }
+  #error_explanation ul {
+    color: red;
+    margin: 0 0 30px 0; }
+
+.field_with_errors .form-control {
+  color: #a94442; }
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0; }
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0; }
+  .users li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee; }
+
+/* microposts */
+.microposts {
+  list-style: none;
+  padding: 0; }
+  .microposts li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8; }
+  .microposts .user {
+    margin-top: 5em;
+    padding-top: 0; }
+  .microposts .content {
+    display: block;
+    margin-left: 60px; }
+    .microposts .content img {
+      display: block;
+      padding: 5px 0; }
+  .microposts .timestamp {
+    color: #777777;
+    display: block;
+    margin-left: 60px; }
+  .microposts .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px; }
+
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px; }
+
+span.picture {
+  margin-top: 10px; }
+  span.picture input {
+    border: 0; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmJ1bmRsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/

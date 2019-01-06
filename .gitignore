@@ -1,0 +1,10 @@
+/doc/
+/lib/
+/.crystal/
+/.shards/
+/.vscode/
+/tmp/
+config/database.yml
+.DS_Store
+/bin/
+/node_modules

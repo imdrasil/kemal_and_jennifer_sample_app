@@ -1,0 +1,59 @@
+---
+__formats__:
+  time:
+    formats:
+      default: "%F"
+application_view:
+  title: Sample Kemal & Jennifer App
+home/about_view:
+  title: About
+session:
+  title: Log in
+password_resets/new_view:
+  title: Forgot password
+users/edit_view:
+  title: Edit user
+users/index_view:
+  title: All users
+users/new_view:
+  title: Sign up
+users/follow_view:
+application_controller:
+  ensure_login: Must be signed in
+account_activation_controller:
+  edit:
+    success: Account activated!
+    danger: Invalid activation link.
+microposts_controller:
+  create:
+    success: Micropost created
+  destroy:
+    success: Micropost deleted
+    alert: Micropost can't be deleted
+password_resets_controller:
+  valdiate_user: User with given email doesn't exist.
+  check_expiration: Password reset has expired.
+  create:
+    info: Email has been sent with password reset information
+    danger: Email address is not found
+  update:
+    success: Password has been reset
+session_controller:
+  create:
+    info: Successfully signed in
+    warning: Account isn't activated. Check your email for the activation link.
+    danger: Invalid email or password.
+  destroy:
+    info: Logged out.
+users_controller:
+  following:
+    title: Following
+  followers:
+    title: Followers
+  create:
+    success: User is created successfully.
+    danger: Could not create user
+  update:
+    success: Profile updated
+  destroy:
+    success: User deleted

@@ -1,0 +1,54 @@
+[
+  {
+    "email": "admin@example.com",
+    "name": "Application Admin",
+    "admin": true
+  },
+  {
+    "email": "test1@example.com",
+    "name": "Test User 1",
+    "posts": [
+      { "content": "Lorem Ipsum" }
+    ],
+    "followers": [
+      "test3@example.com"
+    ]
+  },
+  {
+    "email": "test2@example.com",
+    "name": "Test User 2",
+    "posts": [
+      { "content": "Lorem Ipsum 2" },
+      { "content": "Lorem Ipsum 2 2" },
+      { "content": "Lorem Ipsum 2 3" },
+      { "content": "Lorem Ipsum 2 4" },
+      { "content": "Lorem Ipsum 2 5" }
+    ],
+    "followers": [
+      "test3@example.com"
+    ]
+  },
+  {
+    "email": "test3@example.com",
+    "name": "Test User 3",
+    "posts": [
+      { "content": "Lorem Ipsum 3" }
+    ],
+    "followers": [
+      "test1@example.com",
+      "test2@example.com"
+    ]
+  },
+  {
+    "email": "test4@example.com",
+    "name": "Test User 4"
+  },
+  {
+    "email": "test5@example.com",
+    "name": "Test User 5"
+  },
+  {
+    "email": "test6@example.com",
+    "name": "Test User 6"
+  }
+]

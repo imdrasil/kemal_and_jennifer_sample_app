@@ -1,0 +1,102 @@
+version: 1.0
+shards:
+  carbon:
+    github: luckyframework/carbon
+    version: 0.1.0
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.5.1
+
+  email_opener:
+    github: imdrasil/email_opener
+    version: 0.1.0
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.1.1
+
+  flash_container:
+    github: imdrasil/flash_container.cr
+    version: 0.1.0
+
+  form_object:
+    github: imdrasil/form_object
+    commit: 108dfae07323805fd8ff8a09007362374c73807b
+
+  habitat:
+    github: luckyframework/habitat
+    version: 0.4.0
+
+  http_method_emulator:
+    github: imdrasil/http_method_emulator
+    version: 0.1.0
+
+  i18n:
+    github: TechMagister/i18n.cr
+    version: 0.2.0
+
+  ifrit:
+    github: imdrasil/ifrit
+    version: 0.1.2
+
+  inflector:
+    github: phoffer/inflector.cr
+    version: 0.1.8
+
+  jennifer:
+    github: imdrasil/jennifer.cr
+    commit: fa26278528160841516dfa0730956325a57a1110
+
+  kemal:
+    github: kemalcr/kemal
+    version: 0.25.1
+
+  kemal-session:
+    github: kemalcr/kemal-session
+    version: 0.11.0
+
+  kemal-session-redis:
+    github: crisward/kemal-session-redis
+    commit: 1e866d5383c3d42145160ea565d9cfd75ab11204
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
+  pager:
+    github: imdrasil/pager
+    commit: 10aeea6753c350e2d8e09a2303cb08c2193b10af
+
+  pg:
+    github: will/crystal-pg
+    version: 0.15.0
+
+  pool:
+    github: ysbaddaden/pool
+    version: 0.2.3
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.9
+
+  redis:
+    github: stefanwille/crystal-redis
+    version: 1.8.0
+
+  sam:
+    github: imdrasil/sam.cr
+    version: 0.3.0
+
+  slang:
+    github: jeromegn/slang
+    version: 1.7.1
+
+  spec-kemal:
+    github: kemalcr/spec-kemal
+    version: 0.5.0
+
+  view_model:
+    github: imdrasil/view_model.cr
+    commit: 24a43bc89cf58d6d6c945ef236cb80227e853c21
+
