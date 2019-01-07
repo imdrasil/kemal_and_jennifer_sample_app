@@ -35,7 +35,7 @@ $ make webpack
 
 ### NOTES
 
-Proposed controller-based architecture for a Kemal application and shouldn't be considered as a best practice.
+Proposed controller-based architecture for a Kemal application is just a one of possible solutions and shouldn't be considered as best practice.
 
 ### Dependencies
 
