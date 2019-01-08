@@ -24,7 +24,7 @@ dependencies:
     branch: master
   jennifer:
     github: imdrasil/jennifer.cr
-    branch: release/0.7.0
+    version: "~> 0.7.0"
   sam:
     github: imdrasil/sam.cr
   pg:
@@ -33,14 +33,14 @@ dependencies:
     github: luckyframework/carbon
   form_object:
     github: imdrasil/form_object
-    branch: add_form_nesting
+    version: "~> 0.2.0"
   pager:
     github: imdrasil/pager
   slang:
     github: jeromegn/slang
   view_model:
     github: imdrasil/view_model.cr
-    branch: feature/enhance_view_model_object
+    version: "~> 0.2.0"
   http_method_emulator:
     github: imdrasil/http_method_emulator
   flash_container:
